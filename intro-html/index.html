@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Web</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <table style="width: 500px;">
+        <thead>
+            <tr>
+                <th>Price</th>
+                <th>Product</th>
+            </tr>
+        </thead>
+        
+        <tbody>
+            <tr>
+                <td>Hi beats</td>
+                <td>Free</td>
+            </tr>
+            <tr>
+                <td>Row2</td>
+                <td>$19.90</td>
+            </tr>
+            <tr>
+                <td>This is th Row 3 too long</td>
+                <td>$29.90</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td></td>
+            <td>Total: 49.80$</td>
+        </tfoot>
+    </table>
+
+    <!--ul lista no ordenada-->
+    <ul>
+        <li>Element 1</li>
+        <li>Element 2</li>
+        <li>Element 3</li>
+        <li>Element 4</li>
+    </ul>
+
+    <!--ol lista ordenada-->
+    <ol>
+        <li value="50">Element 1</li>
+        <li>Element 2</li>
+        <li>Element 3</li>
+        <li>Element 4</li>
+        <li> Element 5
+            <ol>
+                <li style="list-style-type: lower-alpha;">Sub element 1</li>
+                <li style="list-style-type: lower-alpha;">Sub element 2</li>
+                <li style="list-style-type: lower-alpha;">Sub element 3</li>
+            </ol>
+        </li>
+    </ol>
+
+
+
+
+
+    <form action="/file.txt" method="POST"> <!---->
+        <label for="name">Name</label>
+        <input value="value1" type="text" id="name" name="name" placeholder="Name"/>
+        <br>
+        <label for="lastname">Lastname</label>
+        <input value="value1" type="text" id="lastname" name="lastname" placeholder="Lastname"/>
+        <br>
+        <label for="comment">Comment</label><br>
+        <textarea name="comment" id="comment" cols="50" rows="10" placeholder="input a comment">comment by default</textarea>
+        <br>
+        <input type="submit"/>
+        <button type="button">Button</button>
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+    </form>
+    <h1>My first heading</h1>
+    <h2>My second heading</h2>
+    <h3>My third heading</h3>
+    <h4>My 4 heading</h4>
+    <h5>My 5 heading</h5>
+    <h6>My 6 heading</h6>
+
+    <p>this is a p label</p>
+    <p>this is a second p label</p>
+    <hr>
+    <h2>other heding</h2>
+    <p>content for second heading wiht a <span style="color: blue"> long text to test</span> 
+        long text to test <br> the span label</p>
+
+
+    <!--This is a comment, should be not displayed on the browser-->
+
+    <a target="_blank" href="https://www.google.com">Go to Google</a>
+
+    <img src="img/ra63jivmg9u31.png" alt="" width="400" height="400"/>
+
+</body>
+</html>
