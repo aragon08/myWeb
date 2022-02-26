@@ -1,104 +1,43 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Web</title>
-    <style>
-        table, th, td {
-            border: 1px solid black;
-        }
-    </style>
+    <title>Carlos Aragon</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../intro-html/css/index-style.css">
 </head>
 <body>
-    <table style="width: 500px;">
-        <thead>
-            <tr>
-                <th>Price</th>
-                <th>Product</th>
-            </tr>
-        </thead>
-        
-        <tbody>
-            <tr>
-                <td>Hi beats</td>
-                <td>Free</td>
-            </tr>
-            <tr>
-                <td>Row2</td>
-                <td>$19.90</td>
-            </tr>
-            <tr>
-                <td>This is th Row 3 too long</td>
-                <td>$29.90</td>
-            </tr>
-        </tbody>
-        <tfoot>
-            <td></td>
-            <td>Total: 49.80$</td>
-        </tfoot>
-    </table>
-
-    <!--ul lista no ordenada-->
-    <ul>
-        <li>Element 1</li>
-        <li>Element 2</li>
-        <li>Element 3</li>
-        <li>Element 4</li>
-    </ul>
-
-    <!--ol lista ordenada-->
-    <ol>
-        <li value="50">Element 1</li>
-        <li>Element 2</li>
-        <li>Element 3</li>
-        <li>Element 4</li>
-        <li> Element 5
-            <ol>
-                <li style="list-style-type: lower-alpha;">Sub element 1</li>
-                <li style="list-style-type: lower-alpha;">Sub element 2</li>
-                <li style="list-style-type: lower-alpha;">Sub element 3</li>
-            </ol>
-        </li>
-    </ol>
-
-
-
-
-
-    <form action="/file.txt" method="POST"> <!---->
-        <label for="name">Name</label>
-        <input value="value1" type="text" id="name" name="name" placeholder="Name"/>
-        <br>
-        <label for="lastname">Lastname</label>
-        <input value="value1" type="text" id="lastname" name="lastname" placeholder="Lastname"/>
-        <br>
-        <label for="comment">Comment</label><br>
-        <textarea name="comment" id="comment" cols="50" rows="10" placeholder="input a comment">comment by default</textarea>
-        <br>
-        <input type="submit"/>
-        <button type="button">Button</button>
-        <button type="reset">Reset</button>
-        <button type="submit">Submit</button>
-    </form>
-    <h1>My first heading</h1>
-    <h2>My second heading</h2>
-    <h3>My third heading</h3>
-    <h4>My 4 heading</h4>
-    <h5>My 5 heading</h5>
-    <h6>My 6 heading</h6>
-
-    <p>this is a p label</p>
-    <p>this is a second p label</p>
-    <hr>
-    <h2>other heding</h2>
-    <p>content for second heading wiht a <span style="color: blue"> long text to test</span> 
-        long text to test <br> the span label</p>
-
-
-    <!--This is a comment, should be not displayed on the browser-->
-
-    <a target="_blank" href="https://www.google.com">Go to Google</a>
-
-    <img src="img/ra63jivmg9u31.png" alt="" width="400" height="400"/>
-
+    <header id="blog-title">
+        <h1>ISC Juan Carlos Aragon Cruz</h1>
+    </header>
+    
+    <section class="container">
+        <article class="post">
+            <h2>UST Global</h2>
+            <p>2013-2016</p>
+            <img src="img/ustGlobal.jpg" width="100">
+            <p>Tester for Wellpoint, Mckesson, Grupo Modelo, HEB</p>
+        </article>
+        <article class="post">
+            <h2>Unosquare</h2>
+            <p>2016-2018</p>
+            <img src="img/Unosquare.jpg" width="100">
+            <p>Tester for Bofi, Axos</p>
+        </article>
+        <article class="post">
+            <h2>Concentrix</h2>
+            <p>2016-2018</p>
+            <img src="img/concentrix.jpg" width="200">
+            <p>Tester for AARP, Game Taco, H2M, Servicenow</p>
+        </article>
+    </section>
+    <footer>
+        <section>
+        <a href="#blog-title">Goto the top</a>
+        <a href="mailto:aragon.c08gmail.com">Email contact</a>
+        </section>
+        <p>Copyright 2022</p>
+    </footer>
 </body>
 </html>
